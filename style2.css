@@ -9,7 +9,7 @@
 .home{
 	width: 100%;
 	height: 50vh;
-	background-image:url(../images/bg.jpg);
+	background-image:url(./bg.jpg);
 	background-size: cover;
 }
 nav
@@ -125,7 +125,7 @@ button
 	height: 50vh;
 	display: flex;
 	color: #FFFFFF;
-	background-image:url(../images/bg.jpg);
+	background-image:url(./bg.jpg);
 	background-size: cover;
 }
 .contact_main
