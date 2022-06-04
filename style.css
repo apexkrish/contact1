@@ -9,7 +9,7 @@
 .home{
 	width: 100%;
 	height: 100vh;
-	background-image:url(../images/bg.jpg);
+	background-image:url(./bg.jpg);
 	background-size: cover;
 }
 nav
@@ -270,7 +270,7 @@ color: #dbd6d6;
 	height: 50vh;
 	display: flex;
 	color: #FFFFFF;
-	background-image:url(../images/bg.jpg);
+	background-image:url(./bg.jpg);
 	background-size: cover;
 }
 .contact_main
