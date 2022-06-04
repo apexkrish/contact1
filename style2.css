@@ -1,0 +1,221 @@
+
+*
+{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	scroll-behavior: smooth;
+}
+.home{
+	width: 100%;
+	height: 50vh;
+	background-image:url(../images/bg.jpg);
+	background-size: cover;
+}
+nav
+{
+	width: 100%;
+	height: 50px;
+	position: fixed;
+}
+nav ul
+{
+	position: fixed;
+	top: -100%;
+	width: 100%;
+	height: 250px;
+	text-align: center;
+	transition:all.3s;
+	background-color:grey;
+	color: black;
+	padding-top: 10px;
+}
+nav ul li
+{
+	list-style-type: none;
+	padding: 10px;
+	font-size: 22px;
+	font-family: arial;
+
+}
+nav ul li a
+{
+	color:black;
+	text-decoration: none;
+	font-weight: bolder;
+	text-shadow: 2px 2px 2px grey;
+	transition: all.5s;
+}
+nav ul li a:hover
+{
+ color: grey;
+}
+nav ul li a::before
+{
+content: attr(data-text);
+position: absolute;
+left: 50%;
+transform: translate(-50%,-50%);
+font-size: 18px;
+color: cyan;
+opacity: 0;
+}
+nav ul li a:hover::before
+{
+	opacity: 1;
+
+}
+#check
+{
+	display: none;
+	float: right;
+}
+.btn
+{
+	float: right;
+	font-size: 35px;   
+	color: white;
+	padding: 20px;
+}
+#check:checked ~ul
+{
+	top:60px;
+}
+.contact
+{
+	width: 100%;
+	height: 100vh;
+}
+.contact h1
+{
+	text-align: center;
+	padding-top: 100px;
+	font-family: ariL;
+	font-size: 40PX;
+}
+form
+{
+    margin-top: 40px;
+	text-align: center;
+}
+form input
+{
+	width: 400px;
+	height: 40px;
+}
+button
+{
+	width: 200px;
+	height: 30px;
+
+}
+ #sub
+{
+	background-color: green;
+	color: white;
+}
+ #cle
+{
+	background-color: red;
+	color: white;
+}
+.contact_us
+{
+	width: 100%;
+	height: 50vh;
+	display: flex;
+	color: #FFFFFF;
+	background-image:url(../images/bg.jpg);
+	background-size: cover;
+}
+.contact_main
+{
+	width: 60%;
+	height: 50vh;
+		color: #FFFFFF;
+
+}
+ .buton
+{
+	width: 40%;
+	height: 50vh;
+	padding-top: 50px;
+	padding-left: 50px;
+
+}
+.buton #lm
+{
+	font-size: 18px;
+	width: 200px;
+	height: 60px;
+	border-radius: 10px;
+	cursor: pointer;
+		color: #FFFFFF;
+	background-color:#2B569A;
+	transition: all.2s;
+}
+.buton #lm:hover
+{
+	background-color: #EF5E4A;
+}
+
+.buton #cs
+{
+		color: #FFFFFF;
+	background-color: #312C29;
+	font-size: 18px;
+	width: 150px;
+	height: 60px;
+	border-radius: 10px;
+	cursor: pointer;
+	margin-left: 22px;
+		transition: all.2s;
+
+}
+.buton #cs:hover
+{
+	background-color:#494342;
+}
+header
+{
+	width: 100%;
+	height: 50vh;
+	text-align: center;
+	background-color: #212121;
+}
+header .handal
+{
+	padding-top: 100px;
+}
+header .handal i
+{
+	font-size:25px; 
+	padding: 15px;
+	color: #625C5A;
+}
+header .handal i:hover
+{
+	color: #F1F1F1;
+}
+header p
+{
+	margin-top: 40px;
+	color: #FFFFFF;
+}
+@media (max-width: 720px)
+{
+	.contact_us
+{
+	display: block;
+	height: 100vh;
+}
+.contact_main
+{
+	width: 100%;
+}
+ .buton
+ {
+ 	width: 100%;
+ 	padding-left: 150px;
+ }
+}
